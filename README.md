@@ -7,7 +7,7 @@ Use
     <iframe src="https://app.pollective.io"
             name="pollective" 
             style="border-width: 1px; border-color: black; border-radius: 10px;" 
-            width="300" height="300" 
+            width="320" height="568" 
             allowTransparency="true" ></iframe>
             
 in order to add Pollective to your website.
