@@ -1,4 +1,4 @@
-# iframe
+# Pollective as iframe
 Adding Pollective as iFrame to any website
 
 
