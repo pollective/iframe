@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Pollective iFrame Example</title>
+    <style>
+        .iframe-div {
+            width: 372px;
+            height: 762px;
+            background-image: url('images/i8-pollective-B.svg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            z-index: 999;
+            position: absolute;
+             /* transform: scale(0.6); */
+        }
+
+        .iframe {
+            position: relative;
+            /* Suggested frame size is 320x568. To get full performance please use this size.  */
+            width: 320px;
+            height: 568px;
+            top: 95px;
+            left: 25px;
+            background: #fff;
+            z-index: 998;
+
+        }
+    </style>
 </head>
+
 <body>
-    <!-- Suggested frame size is 320x568. To get full performance please use this size. -->
-    <div class="pollective-iframe" style="width: 320px; height: 568px; background-image: url('images/i8-pollective-B.svg');background-repeat: no-repeat;background-color: red;background-size: 100% 100%;" >
-        <iframe src="https://localhost:3000"
-            name="pollective" 
-            style="border-width: 1px; border-color: black; border-radius: 10px; display: none;" 
-            width="95%" height="95%"
-            allowTransparency="true" ></iframe>
+
+    <div class="iframe-div">
+        <iframe class="iframe" frameborder='0' src="https://app.pollective.io"></iframe>
     </div>
 </body>
+
 </html>
