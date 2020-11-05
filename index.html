@@ -5,10 +5,12 @@
 </head>
 <body>
     <!-- Suggested frame size is 320x568. To get full performance please use this size. -->
-    <iframe src="https://app.pollective.io"
+    <div class="pollective-iframe" style="width: 320px; height: 568px; background-image: url('images/i8-pollective-B.svg');background-repeat: no-repeat;background-color: red;background-size: 100% 100%;" >
+        <iframe src="https://localhost:3000"
             name="pollective" 
-            style="border-width: 1px; border-color: black; border-radius: 10px;" 
-            width="320" height="568" 
+            style="border-width: 1px; border-color: black; border-radius: 10px; display: none;" 
+            width="95%" height="95%"
             allowTransparency="true" ></iframe>
+    </div>
 </body>
 </html>
