@@ -1,8 +1,13 @@
 # Pollective as iframe
 Adding Pollective as iFrame to any website
 
-
 Use 
+
+    index.html 
+    
+as reference.
+
+For use without an iPhone frame you may use;
   
     <iframe src="https://app.pollective.io"
             name="pollective" 
@@ -11,6 +16,7 @@ Use
             allowTransparency="true" ></iframe>
             
 in order to add Pollective to your website.
+
 Authentication flows fill follow from the browsers' cache. 
 No further development required.
 
