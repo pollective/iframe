@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Pollective iFrame Example</title>
     <style>
         .iframe-div {
             width: 372px;
             height: 762px;
-            background-image: url('images/i8-pollective-B.svg');
+            background-image: url('http://pollective.com.tr/i8-pollective-B.svg');
             background-position: center center;
             background-repeat: no-repeat;
             z-index: 999;
-            position: absolute;
+
              /* transform: scale(0.6); */
         }
-
         .iframe {
-            position: relative;
+
             /* Suggested frame size is 320x568. To get full performance please use this size.  */
             width: 320px;
             height: 568px;
@@ -24,13 +24,13 @@
             left: 25px;
             background: #fff;
             z-index: 998;
-
+            position:relative;
         }
+
     </style>
 </head>
 
 <body>
-
     <div class="iframe-div">
         <iframe class="iframe" frameborder='0' src="https://app.pollective.io"></iframe>
     </div>
